@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Detection Shield</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="popup-header">
+            <h2>Phishing Detection Shield</h2>
+        </div>
+        
+        <div id="status-container" class="status-indicator">
+            Analyzing...
+        </div>
+        
+        <div class="action-buttons">
+            <button id="analyze-page" class="action-button">
+                Analyze This Page
+            </button>
+            <button id="report-phishing" class="action-button">
+                Report as Phishing
+            </button>
+        </div>
+        
+        <div id="results-container" style="display: none;">
+            <h3>Analysis Results:</h3>
+            <div id="url-score"></div>
+            <div id="content-score"></div>
+        </div>
+        
+        <a href="#" id="settings-link" class="settings-link">
+            Settings & Preferences
+        </a>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 

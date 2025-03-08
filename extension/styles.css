@@ -1,0 +1,140 @@
+.phishing-warning-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.warning-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.warning-content strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+
+.warning-content p {
+    margin: 8px 0;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.warning-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.warning-actions button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.report-false-positive {
+    background-color: #2196f3;
+    color: white;
+}
+
+.report-false-positive:hover {
+    background-color: #1976d2;
+}
+
+.proceed-anyway {
+    background-color: #757575;
+    color: white;
+}
+
+.proceed-anyway:hover {
+    background-color: #616161;
+}
+
+/* Popup Styles */
+.popup-container {
+    width: 300px;
+    padding: 15px;
+}
+
+.popup-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.popup-header h2 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.status-safe {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.status-warning {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
+
+.status-danger {
+    background-color: #ffcdd2;
+    color: #c62828;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #2196f3;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.action-button:hover {
+    background-color: #1976d2;
+}
+
+.settings-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.settings-link:hover {
+    color: #333;
+} 
